@@ -1,0 +1,24 @@
+	<div class="content">
+		<div class="work">
+			<div class="work__content">
+				<img src="/ohyeah/{{ page.slug }}/{{ page.mainpicture }}" class="work__figure">
+			</div>
+			<div class="work__aside">
+				<div class="work__title">{{ page.title }}</div>
+				<div class="work__description text">
+					<p>{{ page.description }}</p>
+				</div>
+				<div class="work__social">Social</div>
+				{% if page.relatedlinks.size != 0 %}<div class="work__see-also work-see-also">
+					<div class="work-see-also__title">Also check{% if page.relatedlinks.size == 1 %} this blog post{% else %} these blog posts{% endif %}:</div>
+					<ul class="work-see-also__links">
+						{% for relink in page.relatedlinks %} <li class="work-see-also__item"><a href="{{ relink['link'] }}" class="link">{{ relink["title"] }}</a></li>{% endfor %}
+					</ul>
+				</div>{% endif %}
+			</div>
+		</div>
+	</div>
+{{ content }}
+			</div>
+		</div>
+	</div>
