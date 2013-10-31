@@ -22,7 +22,7 @@ module Jekyll
   <img src=\"#{@img}\" class=\"figure__img\">
   <div class=\"figure-i\">
     <div class=\"figure__caption\">
-        #{@desc}
+        #{@desc[0]}
     </div></div></div>"
       else
         @output = "<div class=\"figure\">
@@ -46,7 +46,7 @@ module Jekyll
   <img src=\"#{@img}\" class=\"figure__img\">
   <div class=\"figure-i\">
     <div class=\"figure__caption\">
-        #{@desc}
+        #{@desc[0]}
     </div></div></div></div>"
       else
         @output = "<div class=\"spread\">
