@@ -2,3 +2,5 @@ node_modules
 styles
 tamia
 Gruntfile.coffee
+fonts/DaxlineWebPro-Bold.woff
+fonts/DaxlineWebPro.woff
