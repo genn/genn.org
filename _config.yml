@@ -1,6 +1,6 @@
 server: true
 permalink: /:categories/:title/
-exclude: ['node_module', 'styles', 'tamia', 'Gruntfile.coffee', '.gitignore', 'readme.md']
+exclude: ['node_module', 'styles', 'tamia', 'Gruntfile.coffee', '.gitignore', 'readme.md', 'build']
 
 mega: 
   picurl: /o_O/

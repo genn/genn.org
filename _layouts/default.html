@@ -21,7 +21,8 @@
 
 	{% if page.category == 'info' %} {% include info.html %} 
 	{% elsif page.category == 'work' %} {% include work.html %}
-	{% elsif page.category == 'mega' %} {% include mega.html %} {% endif %}
+	{% elsif page.category == 'mega' %} {% include mega.html %}
+	{% else %} {{ content }} {% endif %}
 
 	{% include bottomnav.html %}
 
