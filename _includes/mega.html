@@ -3,7 +3,9 @@
 			<div class="post-header-i">
 				<div class="post-header__title post-header__title_no-pic_">
 					<div class="post-header__title-i">
+						{% if page.mainpicture %}
 						<img src="{{ site.mega.picurl }}{{ page.slug }}/{{ page.mainpicture }}" alt="">
+						{% endif %}
 						<div class="post-header__title-i-i">
 							<h1 class="post-title">
 								<span>{{ page.title }}</span>
@@ -15,11 +17,11 @@
 				<div class="post-header__meta">
 					<div class="post-header__meta-i">
 						<div class="post-header__date post-date">{{ page.date | date: "%d / %m / %Y" | replace_first: "/ 01", "/ I"  | replace_first: "/ 02", "/ II"  | replace_first: "/ 03", "/ III"  | replace_first: "/ 04", "/ IV"  | replace_first: "/ 05", "/ V"  | replace_first: "/ 06", "/ VI"  | replace_first: "/ 07", "/ VII"  | replace_first: "/ 08", "/ VIII"  | replace_first: "/ 09", "/ IX"  | replace_first: "/ 10", "/ X"  | replace_first: "/ 11", "/ XI"  | replace_first: "/ 12", "/ XII" }}</div>
-						<div class="post-header__translation post-translation"><a href="#" class="link" lang="ru">По-русски</a></div>
+						<div class="post-header__translation post-translation"><a href="/mega{% if page.lang == 'en' %}/ru{% endif %}/{{ page.slug }}/" class="link" lang="{{ page.lang }}">{% if page.lang == 'en' %}По-русски{% else %}In English{% endif %}</a></div>
 					</div>
 					<ul class="post-header__tags post-tags">
 						{% for tag in page.tags %}
-						<li class="post-tags__item"><a href="#" class="tag link">{{ tag }}</a></li>{% endfor %}
+						<li class="post-tags__item"><a href="/mega/blah/{{ tag }}/" class="tag link">{{ tag }}</a></li>{% endfor %}
 					</ul>
 				</div>
 			</div>

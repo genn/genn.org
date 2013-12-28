@@ -1,17 +1,21 @@
-	{% if page.category != 'info' %}
+	{% if page.categories[0] != 'info' %}
 	<div class="content">
 		<div class="post-navigation">
 			<div class="post-navigation__prev">
+			{% if prev.title %}
 				<a href="{{ prev.url }}" class="postnav postnav_extended">
 					<span class="postnav__text">Previous</span>
 					<span class="postnav__link">{{ prev.title }}</span>
 				</a>
+			{% endif %}
 			</div>
 			<div class="post-navigation__next">
+			{% if next.title %}
 				<a href="{{ next.url }}" class="postnav postnav_extended">
 					<span class="postnav__text">Next</span>
 					<span class="postnav__link">{{ next.title }}</span>
 				</a>
+			{% endif %}
 			</div>
 		</div>
 	</div>
