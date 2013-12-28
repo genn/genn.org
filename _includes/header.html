@@ -1,3 +1,4 @@
+<!-- • {{ prev.title }} • {{ next.title }} -->
 	<header class="header">
 		<div class="header-i">
 			<div class="logo">Genn.org</div>
@@ -16,14 +17,14 @@
 				</a>
 				<a href="/mega" class="nav__item nav__item_mega" data-id="mega">
 					{% if page.categories[0] == 'mega' %}<div class="nav__subnav nav__subnav_mega postnavs">
-						<span class="nav__subnav__item postnav js-prev">Previous</span>
-						<span class="nav__subnav__item postnav js-next">Next</span>
+						{% if prev %}<span class="nav__subnav__item postnav js-prev">Previous</span>{% endif %}
+						{% if next %}<span class="nav__subnav__item postnav js-next">Next</span>{% endif %}
 					</div> {% endif %}
 					<span class="nav__item__text">Mega</span>
 				</a>
 			</div>
 		</nav>
-<!-- WHAT FOR?
+<!-- WHAT FOR? MOBILE? Don't touch it! -->
 		{% if page.categories[0] != 'info' %}
 		<div class="nav__subnav nav__subnav_mobile postnavs">
 			<div class="l-row">
@@ -36,5 +37,5 @@
 			</div>
 		</div>
 		{% endif %}
--->
+<!-- MOBILE END -->
 	</header>

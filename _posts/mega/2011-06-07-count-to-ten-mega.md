@@ -1,6 +1,7 @@
 ---
 layout: default
-title: 2-Count to ten mega
 category: mega
+lang: en
+title: 2-Count to ten mega
 ---
-megapost
+2 megapost

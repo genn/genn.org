@@ -1,0 +1,9 @@
+/ Multilanguage with normal Prev/Next
+/ Change phone number to something else
+- Comments
+- Prev/Next hide when on first/last
+- List by tag design
+- Global variables defined
+- Post without a picture design
+- Wordpress migration
+- Porfolio migration

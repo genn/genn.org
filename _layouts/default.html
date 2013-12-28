@@ -7,7 +7,31 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="format-detection" content="telephone=no">
-	{% if page.categories[0] != 'info' %} {% for category in site.categories %} {% if category.first == page.categories[0] %} {% assign categoryposts = category.last %} {% endif %} {% endfor %} {% for post in categoryposts %} {% if post.title == page.title %} {% if categoryposts[forloop.index].url!='' %} {% assign next = categoryposts[forloop.index] %} {% endif %} {% break %} {% else %} {% assign prev = post %} {% endif %} {% endfor %}
+	{% if page.categories[0] != 'info' %}
+		{% for category in site.categories %}
+			{% if category.first == page.categories[0] %}
+				{% assign categoryposts = category.last %}
+			{% endif %}
+		{% endfor %} 
+
+
+		{% for post in categoryposts %}
+			{% if post.url == page.url %}
+				{% assign thispost = post %}
+			{% else %}
+				{% if thispost %}
+					{% if post.lang == page.lang %}
+						{% assign next = post %}
+						{% break %}
+					{% endif %}
+				{% else %}
+					{% if post.lang == page.lang %}
+						{% assign prev = post %}
+					{% endif %}
+				{% endif %}
+			{% endif %}
+
+		{% endfor %}
 	<link rel="next" href="{{ next.url }}">
 	<link rel="prev" href="{{ prev.url }}">{% endif %}
 
