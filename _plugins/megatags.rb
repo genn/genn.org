@@ -43,11 +43,11 @@ module Jekyll
       if @desc.length > 0
         @output = "<div class=\"spread\">
   <div class=\"spread-i\">
-  <img src=\"#{@img}\" class=\"figure__img\">
+  <img src=\"#{@img}\" class=\"figure__img\"></div></div>
   <div class=\"figure-i\">
     <div class=\"figure__caption\">
         #{@desc[0]}
-    </div></div></div></div>"
+    </div></div>"
       else
         @output = "<div class=\"spread\">
   <div class=\"spread-i\">

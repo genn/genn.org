@@ -3,20 +3,31 @@
 		<div class="header-i">
 			<div class="logo">Genn.org</div>
 		</div>
+		{% for category in site.categories %}
+			{% if category.first == 'mega' %}
+				{% assign megaposts = category.last %}
+			{% else if category.first == 'work' %}
+				{% assign workposts = category.last%}
+			{% endif %}
+		{% endfor %} 
+
+		{% assign postlink=categoryposts[0].url %}
+
+		•••{{ postlink }}•••
 		<nav class="nav nav_active_{{ page.categories[0] }}" data-component="menu">
 			<div class="nav-i">
 				<a href="/info" class="nav__item nav__item_info" data-id="info">
 					<span class="nav__item__text">Info</span>
 				</a>
-				<a href="/work" class="nav__item nav__item_work" data-id="work">
+				<a href="{{ workposts[0].url }}" class="nav__item nav__item_work" data-id="work">
 					<span class="nav__item__text">Work</span>
 					{% if page.categories[0] == 'work' %}<div class="nav__subnav nav__subnav_work postnavs">
-						<span class="nav__subnav__item postnav js-prev">Previous</span>
-						<span class="nav__subnav__item postnav js-next">Next</span>
+						{% if prev %}<span class="nav__subnav__item postnav js-prev">Previous</span>{% endif %}
+						{% if next %}<span class="nav__subnav__item postnav js-next">Next</span>{% endif %}
 					</div>{% endif %}
 				</a>
-				<a href="/mega" class="nav__item nav__item_mega" data-id="mega">
-					{% if page.categories[0] == 'mega' %}<div class="nav__subnav nav__subnav_mega postnavs">
+				<a href="{{ megaposts[0].url }}" class="nav__item nav__item_mega" data-id="mega">
+					{% if page.categories[0] == 'mega' and page.categories[1] != 'tags' %}<div class="nav__subnav nav__subnav_mega postnavs">
 						{% if prev %}<span class="nav__subnav__item postnav js-prev">Previous</span>{% endif %}
 						{% if next %}<span class="nav__subnav__item postnav js-next">Next</span>{% endif %}
 					</div> {% endif %}
@@ -25,7 +36,7 @@
 			</div>
 		</nav>
 <!-- WHAT FOR? MOBILE? Don't touch it! -->
-		{% if page.categories[0] != 'info' %}
+		{% if page.categories[0] != 'info' and page.categories[1] != 'tags' %}
 		<div class="nav__subnav nav__subnav_mobile postnavs">
 			<div class="l-row">
 				<div class="l-half">

@@ -1,0 +1,56 @@
+---
+layout: default
+lang: ru
+categories: [mega, tags]
+---
+  {% for post in site.posts %}
+    {% if post.lang == page.lang %}
+      {% for currenttag in post.tags %}
+      {% if currenttag == page.tag %}
+        <header class="post-header">
+          <div class="content">
+            <div class="post-header-i">
+              <div class="post-header__title{% if post.mainpicture %}{% else %}_no-pic{% endif %}">
+                <div class="post-header__title-i">
+                  {% if post.mainpicture %}
+                  <a href="{{ post.url }}"><img src="{{ site.mega.picurl }}{{ post.slug }}/{{ post.mainpicture }}" alt=""></a>
+                  {% endif %}
+                  <div class="post-header__title-i-i">
+                    <h1 class="post-title">
+                      <a href="{{ post.url }}"><span>{{ post.title }}</span></a>
+                    </h1>
+                    <div class="post-header__comments-count post-comments-count">11 comments</div>
+                  </div>
+                </div>
+              </div>
+              <div class="post-header__meta">
+                <div class="post-header__meta-i">
+                  <div class="post-header__date post-date">{{ post.date | date: "%d / %m / %Y" | replace_first: "/ 01", "/ I"  | replace_first: "/ 02", "/ II"  | replace_first: "/ 03", "/ III"  | replace_first: "/ 04", "/ IV"  | replace_first: "/ 05", "/ V"  | replace_first: "/ 06", "/ VI"  | replace_first: "/ 07", "/ VII"  | replace_first: "/ 08", "/ VIII"  | replace_first: "/ 09", "/ IX"  | replace_first: "/ 10", "/ X"  | replace_first: "/ 11", "/ XI"  | replace_first: "/ 12", "/ XII" }}</div>
+                </div>
+                <ul class="post-header__tags post-tags">
+                  {% for tag in post.tags %}
+                  <li class="post-tags__item">{% if tag ==  currenttag %}<b>{% endif %}<a href="/mega{% if page.lang == 'ru' %}/ru{% endif %}/blah/{{ tag }}/" class="tag link">{{ tag }}</a>{% if tag ==  currenttag %}</b>{% endif %}</li>{% endfor %}
+                </ul>
+              </div>
+
+            </div>
+          </div>
+        </header>
+        <div class="post-content">
+          <div class="content">
+            <div class="post-content-i">
+              <div class="post-content__social-aside">
+                Social 1
+              </div>
+              <div class="post-content__main">
+                <div class="post-content__text text">
+                  {{ post.excerpt }}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      {% endif %}
+      {% endfor %}
+    {% endif %}
+  {% endfor %}

@@ -1,0 +1,104 @@
+	<header class="post-header">
+		<div class="content">
+			<div class="post-header-i">
+				<div class="{% if page.mainpicture %}post-header__title{% else %}post-header__title_no-pic{% endif %}">
+					<div class="post-header__title-i">
+						{% if page.mainpicture %}
+						<img src="{{ site.mega.picurl }}{{ page.slug }}/{{ page.mainpicture }}" alt="">
+						{% endif %}
+						<div class="post-header__title-i-i">
+							<h1 class="post-title">
+								<span>{{ page.title }}</span>
+							</h1>
+							<div class="post-header__comments-count post-comments-count">11 comments</div>
+						</div>
+					</div>
+				</div>
+				<div class="post-header__meta">
+					<div class="post-header__meta-i">
+						<div class="post-header__date post-date">{{ page.date | date: "%d / %m / %Y" | replace_first: "/ 01", "/ I"  | replace_first: "/ 02", "/ II"  | replace_first: "/ 03", "/ III"  | replace_first: "/ 04", "/ IV"  | replace_first: "/ 05", "/ V"  | replace_first: "/ 06", "/ VI"  | replace_first: "/ 07", "/ VII"  | replace_first: "/ 08", "/ VIII"  | replace_first: "/ 09", "/ IX"  | replace_first: "/ 10", "/ X"  | replace_first: "/ 11", "/ XI"  | replace_first: "/ 12", "/ XII" }}</div>
+						<div class="post-header__translation post-translation"><a href="/mega{% if page.lang == 'en' %}/ru{% endif %}/{{ page.slug }}/" class="link" lang="{{ page.lang }}">{% if page.lang == 'en' %}По-русски{% else %}In English{% endif %}</a></div>
+					</div>
+					<ul class="post-header__tags post-tags">
+						{% for tag in page.tags %}
+						<li class="post-tags__item"><a href="/mega{% if page.lang == 'ru' %}/ru{% endif %}/blah/{{ tag }}/" class="tag link">{{ tag }}</a></li>{% endfor %}
+					</ul>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<div class="post-content">
+		<div class="content">
+			<div class="post-content-i">
+				<div class="post-content__social-aside">
+					Social 1
+				</div>
+				<div class="post-content__main">
+					<div class="post-content__text text">
+{{ content }}						
+					</div>
+					<div class="post-content__social-bottom">
+						Social 2
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--
+	<div class="post-comments content">
+		<div class="post-comments-i">
+			<h3 class="alpha">Comments</h3>
+			<article class="comment">
+				<div class="comment-i">
+					<div class="comment__date">26/V/2012 15:32</div>
+					<div class="comment__content">
+						<div class="comment__author">Vasia</div>
+						<div class="comment__text text">These spreads are the joy for the eyes, thanks a lot. I have a little question about illustration on page 17. Is there a reason it has to be so ugly?</div>
+					</div>
+				</div>
+			</article>
+			<article class="comment comment_admin">
+				<div class="comment-i">
+					<div class="comment__date">26/V/2012 15:32</div>
+					<div class="comment__content">
+						<div class="comment__author"><a href="/" class="link">Vasia</a></div>
+						<div class="comment__text text">These spreads are the joy for the eyes, thanks a lot. I have a little question about illustration on page 17. Is there a reason it has to be so ugly?</div>
+					</div>
+				</div>
+			</article>
+			<article class="comment">
+				<div class="comment-i">
+					<div class="comment__date">26/V/2012 15:32</div>
+					<div class="comment__content">
+						<div class="comment__author">Vasia</div>
+						<div class="comment__text text">These spreads are the joy for the eyes, thanks a lot. I have a little question about illustration on page 17. Is there a reason it has to be so ugly?</div>
+					</div>
+				</div>
+			</article>
+		</div>
+	</div>
+	<div class="post-reply content">
+		<div class="post-reply-i">
+			<h3 class="alpha">Leave a comment</h3>
+			<form action="">
+				<div class="post-reply__row">
+					<label for="post-reply-name" class="post-reply__name-label">Name</label>
+					<div class="post-reply__name-widget"><input  id="post-reply-name" type="text" class="field" name="name" required></div>
+					<label for="post-reply-email" class="post-reply__email-label">Email</label>
+					<div class="post-reply__email-widget"><input id="post-reply-email" type="email" class="field" name="email"  required></div>
+					<div class="post-reply__email-help"><div class="post-reply__email-help-i">
+						Your email is used for authorisation. It won’t be published and you won’t get any annoying or interesting spam.
+					</div></div>
+				</div>
+				<div class="post-reply__row">
+					<label for="post-reply-text" class="post-reply__text-label">Comment</label>
+					<div class="post-reply__text-widget"><textarea id="post-reply-text" class="post-reply__text-field field field_textarea" name="text"  required></textarea></div>
+				</div>
+				<div class="post-reply__row post-reply__row_buttons">
+					<div class="post-reply__submit-widget"><input type="submit" class="button" name="submit" value="Leave a comment"></div>
+				</div>
+			</form>
+		</div>
+	</div>
+	-->

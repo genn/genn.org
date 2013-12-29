@@ -1,9 +1,13 @@
-/ Multilanguage with normal Prev/Next
++ Multilanguage with normal Prev/Next
+S Fix Next position in menu for the first element
 / Change phone number to something else
 - Comments
-- Prev/Next hide when on first/last
-- List by tag design
-- Global variables defined
-- Post without a picture design
-- Wordpress migration
++ Prev/Next hide when on first/last
++ Fix summa plus CSS man 
++ List by tag design
+/ Global variables defined (decide what for, there is only mega pics url so far)
++ Post without a picture design
+/ Wordpress migration (chose posts to migrate or move all of them)
 - Porfolio migration
++ Tag page differentiation for English and Russian posts
+- Forwarding from the root to the last created work or blog post

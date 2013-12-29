@@ -1,7 +1,10 @@
+	{% if page.categories[1] == 'tags' %}
+		{{ content }}
+	{% else %}
 	<header class="post-header">
 		<div class="content">
 			<div class="post-header-i">
-				<div class="post-header__title post-header__title_no-pic_">
+				<div class="post-header__title{% if page.mainpicture %}{% else %}_no-pic{% endif %}">
 					<div class="post-header__title-i">
 						{% if page.mainpicture %}
 						<img src="{{ site.mega.picurl }}{{ page.slug }}/{{ page.mainpicture }}" alt="">
@@ -21,7 +24,7 @@
 					</div>
 					<ul class="post-header__tags post-tags">
 						{% for tag in page.tags %}
-						<li class="post-tags__item"><a href="/mega/blah/{{ tag }}/" class="tag link">{{ tag }}</a></li>{% endfor %}
+						<li class="post-tags__item"><a href="/mega{% if page.lang == 'ru' %}/ru{% endif %}/blah/{{ tag }}/" class="tag link">{{ tag }}</a></li>{% endfor %}
 					</ul>
 				</div>
 			</div>
@@ -100,3 +103,4 @@
 			</form>
 		</div>
 	</div>
+	{% endif %}
