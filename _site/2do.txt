@@ -10,4 +10,4 @@ S Fix Next position in menu for the first element
 / Wordpress migration (chose posts to migrate or move all of them)
 - Porfolio migration
 + Tag page differentiation for English and Russian posts
-- Forwarding from the root to the last created work or blog post
++ Forwarding from the root to the last created work or blog post
