@@ -22,14 +22,14 @@
 				<a href="{{ workposts[0].url }}" class="nav__item nav__item_work" data-id="work">
 					<span class="nav__item__text">Work</span>
 					{% if page.categories[0] == 'work' %}<div class="nav__subnav nav__subnav_work postnavs">
-						{% if prev %}<span class="nav__subnav__item postnav js-prev">Previous</span>{% endif %}
+						{% if prev %}<span class="nav__subnav__item postnav js-prev">Previous</span>{% else %}<span class="nav__subnav__item postnav js-prev"></span>{% endif %}
 						{% if next %}<span class="nav__subnav__item postnav js-next">Next</span>{% endif %}
 					</div>{% endif %}
 				</a>
 				<a href="{{ megaposts[0].url }}" class="nav__item nav__item_mega" data-id="mega">
 					{% if page.categories[0] == 'mega' and page.categories[1] != 'tags' %}<div class="nav__subnav nav__subnav_mega postnavs">
 						{% if prev %}<span class="nav__subnav__item postnav js-prev">Previous</span>{% endif %}
-						{% if next %}<span class="nav__subnav__item postnav js-next">Next</span>{% endif %}
+						{% if next %}<span class="nav__subnav__item postnav js-next {% if prev %}{% else %}noprev{% endif %}">Next</span>{% endif %}
 					</div> {% endif %}
 					<span class="nav__item__text">Mega</span>
 				</a>

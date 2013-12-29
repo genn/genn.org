@@ -92,6 +92,7 @@ body{font-family:DaxlinePro,Helvetica,Arial,sans-serif}
 .postnav_extended .postnav__text{padding-left:5px}
 .postnav__link{display:inline-block;text-transform:none;color:#07b;text-decoration:underline}
 .postnav:hover .postnav__link{color:#fff}
+.noprev {margin: 0 0 0 103px;}
 @media (max-width:780px){.postnav__text{width:80px}
 }.header{margin:0 -20px 10px;overflow:hidden;}
 .header-i{margin:0 auto;padding:0 10px}
