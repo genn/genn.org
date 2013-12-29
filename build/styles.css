@@ -92,9 +92,9 @@ body{font-family:DaxlinePro,Helvetica,Arial,sans-serif}
 .postnav_extended .postnav__text{padding-left:5px}
 .postnav__link{display:inline-block;text-transform:none;color:#07b;text-decoration:underline}
 .postnav:hover .postnav__link{color:#fff}
-.noprev {margin: 0 0 0 103px;}
 @media (max-width:780px){.postnav__text{width:80px}
-}.header{margin:0 -20px 10px;overflow:hidden;}
+}.noprev{margin:0 0 0 103px}
+.header{margin:0 -20px 10px;overflow:hidden;}
 .header-i{margin:0 auto;padding:0 10px}
 .logo{position:relative;margin-bottom:10px;padding-left:24px;font-size:17px;font-weight:bold;letter-spacing:-.2ex;text-align:left;color:#f50;text-decoration:none;}
 .logo:before{content:"";position:absolute;left:0;top:3px;width:22px;height:15px;background:url("../img/logo.svg");-webkit-background-size:100% 100%;-moz-background-size:100% 100%;background-size:100% 100%}
@@ -233,8 +233,9 @@ body{font-family:DaxlinePro,Helvetica,Arial,sans-serif}
 .comment-i:before,.comment-i:after{content:"";display:table}
 .comment-i:after{clear:both}
 .comment_admin .comment-i{margin:-16px;padding:16px 8px;background:#fff}
-.comment__date{width:12.5%;margin-left:0%;float:left;margin-right:-100%;padding-left:8px;padding-right:8px;padding-top:.3em;font-size:14px;color:#9a9a9a}
+.comment__date{width:12.5%;margin-left:0%;float:left;margin-right:-100%;padding-left:8px;padding-right:8px;padding-top:.7em;font-size:12px;color:#9a9a9a}
 .comment__content{width:87.5%;margin-left:12.5%;float:left;margin-right:-100%;padding-left:8px;padding-right:8px}
+.comment__author a{color:#000}
 .comment__text{font-size:14px}
 @media (max-width:900px){.comment__date{width:20%;margin-left:0%;float:left;margin-right:-100%;padding-left:8px;padding-right:8px}
 .comment__content{width:80%;margin-left:20%;float:left;margin-right:-100%;padding-left:8px;padding-right:8px}

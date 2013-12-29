@@ -1,7 +1,7 @@
 + Multilanguage with normal Prev/Next
 + Fix Next position in menu for the first element
 + Change phone number to something else
-- Comments
++ Comments
 + Prev/Next hide when on first/last
 + Fix summa plus CSS man 
 + List by tag design
@@ -11,3 +11,6 @@
 - Porfolio migration
 + Tag page differentiation for English and Russian posts
 + Forwarding from the root to the last created work or blog post
++ Roman numerals in comments
++ Links in comments
++ Comments add
