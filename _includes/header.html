@@ -12,7 +12,6 @@
 		{% endfor %} 
 
 		{% assign postlink=categoryposts[0].url %}
-
 <!--		•••{{ postlink }}••• -->
 		<nav class="nav nav_active_{{ page.categories[0] }}" data-component="menu">
 			<div class="nav-i">
@@ -22,14 +21,14 @@
 				<a href="{{ workposts[0].url }}" class="nav__item nav__item_work" data-id="work">
 					<span class="nav__item__text">Work</span>
 					{% if page.categories[0] == 'work' %}<div class="nav__subnav nav__subnav_work postnavs">
-						{% if prev %}<span class="nav__subnav__item postnav js-prev">Previous</span>{% else %}<span class="nav__subnav__item postnav js-prev"></span>{% endif %}
-						{% if next %}<span class="nav__subnav__item postnav js-next">Next</span>{% endif %}
+						{% if prev %}<span class="nav__subnav__item postnav js-prev">{% if page.lang == "en" %}Previous{% else %}⟵{% endif %}</span>{% else %}<span class="nav__subnav__item postnav js-prev"></span>{% endif %}
+						{% if next %}<span class="nav__subnav__item postnav js-next">{% if page.lang == "en" %}Next{% else %}⟶{% endif %}</span>{% endif %}
 					</div>{% endif %}
 				</a>
 				<a href="{{ megaposts[0].url }}" class="nav__item nav__item_mega" data-id="mega">
 					{% if page.categories[0] == 'mega' and page.categories[1] != 'tags' %}<div class="nav__subnav nav__subnav_mega postnavs">
-						{% if prev %}<span class="nav__subnav__item postnav js-prev">Previous</span>{% endif %}
-						{% if next %}<span class="nav__subnav__item postnav js-next {% if prev %}{% else %}noprev{% endif %}">Next</span>{% endif %}
+						{% if prev %}<span class="nav__subnav__item postnav js-prev">{% if page.lang == "en" %}Previous{% else %}⟵{% endif %}</span>{% endif %}
+						{% if next %}<span class="nav__subnav__item postnav js-next {% if prev %}{% else %}noprev{% endif %}">{% if page.lang == "en" %}Next{% else %}⟶{% endif %}</span>{% endif %}
 					</div> {% endif %}
 					<span class="nav__item__text">Mega</span>
 				</a>
@@ -40,10 +39,10 @@
 		<div class="nav__subnav nav__subnav_mobile postnavs">
 			<div class="l-row">
 				<div class="l-half">
-					<span class="nav__subnav__item postnav js-prev">Previous</span>
+					<span class="nav__subnav__item postnav js-prev">{% if page.lang == "en" %}Previous{% else %}⟵{% endif %}</span>
 				</div>
 				<div class="l-half">
-					<span class="nav__subnav__item postnav js-next">Next</span>
+					<span class="nav__subnav__item postnav js-next">{% if page.lang == "en" %}Next{% else %}⟶{% endif %}</span>
 				</div>
 			</div>
 		</div>
