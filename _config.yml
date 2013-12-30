@@ -1,6 +1,6 @@
 server: true
 permalink: /:categories/:title/
-exclude: ['node_module', 'tamia', 'Gruntfile.coffee', '.gitignore', 'readme.md', 'wp']
+exclude: ['node_modules', 'tamia', 'Gruntfile.coffee', '.gitignore', 'readme.md', 'wp', 'revealthecrowd.php']
 excerpt_separator: <!--more-->
 
 mega: 

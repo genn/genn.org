@@ -55,22 +55,22 @@
 	<div class="post-reply content">
 		<div class="post-reply-i">
 			<h3 class="alpha">{% if page.lang == "en" %}Leave a Comment{% else %}Оставить комментарий{% endif %}</h3>
-			<form action="">
+			<form action="" method="post" id="commentform">
 				<div class="post-reply__row">
 					<label for="post-reply-name" class="post-reply__name-label">{% if page.lang == "en" %}Name{% else %}Имя{% endif %}</label>
-					<div class="post-reply__name-widget"><input  id="post-reply-name" type="text" class="field" name="name" required></div>
+					<div class="post-reply__name-widget"><input  id="author" type="text" class="field" name="author" required></div>
 					<label for="post-reply-email" class="post-reply__email-label">{% if page.lang == "en" %}E-mail{% else %}Почта{% endif %}</label>
-					<div class="post-reply__email-widget"><input id="post-reply-email" type="email" class="field" name="email"  required></div>
+					<div class="post-reply__email-widget"><input id="email" type="email" class="field" name="email"  required></div>
 					<div class="post-reply__email-help"><div class="post-reply__email-help-i">
 						{% if page.lang == "en" %}Your email is used for authorisation. It won’t be published and you won’t get any annoying or interesting spam.{% else %}Адрес электронной почты необходим только для авторизации. Его никому не покажут и на него не пришлют спам.{% endif %}
 					</div></div>
 				</div>
 				<div class="post-reply__row">
 					<label for="post-reply-text" class="post-reply__text-label">{% if page.lang == "en" %}Text{% else %}Текст{% endif %}</label>
-					<div class="post-reply__text-widget"><textarea id="post-reply-text" class="post-reply__text-field field field_textarea" name="text"  required></textarea></div>
+					<div class="post-reply__text-widget"><textarea id="comment" class="post-reply__text-field field field_textarea" name="comment"  required></textarea></div>
 				</div>
 				<div class="post-reply__row post-reply__row_buttons">
-					<div class="post-reply__submit-widget"><input type="submit" class="button" name="submit" value="{% if page.lang == "en" %}Comment{% else %}Прокомментировать{% endif %}"></div>
+					<div class="post-reply__submit-widget"><input id="submit" type="submit" class="button" name="submit" value="{% if page.lang == "en" %}Comment{% else %}Прокомментировать{% endif %}"></div>
 				</div>
 			</form>
 		</div>

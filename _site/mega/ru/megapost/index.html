@@ -178,22 +178,22 @@
 	<div class="post-reply content">
 		<div class="post-reply-i">
 			<h3 class="alpha">Оставить комментарий</h3>
-			<form action="">
+			<form action="" method="post" id="commentform">
 				<div class="post-reply__row">
 					<label for="post-reply-name" class="post-reply__name-label">Имя</label>
-					<div class="post-reply__name-widget"><input  id="post-reply-name" type="text" class="field" name="name" required></div>
+					<div class="post-reply__name-widget"><input  id="author" type="text" class="field" name="author" required></div>
 					<label for="post-reply-email" class="post-reply__email-label">Почта</label>
-					<div class="post-reply__email-widget"><input id="post-reply-email" type="email" class="field" name="email"  required></div>
+					<div class="post-reply__email-widget"><input id="email" type="email" class="field" name="email"  required></div>
 					<div class="post-reply__email-help"><div class="post-reply__email-help-i">
 						Адрес электронной почты необходим только для авторизации. Его никому не покажут и на него не пришлют спам.
 					</div></div>
 				</div>
 				<div class="post-reply__row">
 					<label for="post-reply-text" class="post-reply__text-label">Текст</label>
-					<div class="post-reply__text-widget"><textarea id="post-reply-text" class="post-reply__text-field field field_textarea" name="text"  required></textarea></div>
+					<div class="post-reply__text-widget"><textarea id="comment" class="post-reply__text-field field field_textarea" name="comment"  required></textarea></div>
 				</div>
 				<div class="post-reply__row post-reply__row_buttons">
-					<div class="post-reply__submit-widget"><input type="submit" class="button" name="submit" value="Прокомментировать"></div>
+					<div class="post-reply__submit-widget"><input id="submit" type="submit" class="button" name="submit" value="Прокомментировать"></div>
 				</div>
 			</form>
 		</div>

@@ -58,4 +58,21 @@
 	
 		print_r($commentscript);
 	}
+
+	$(document).ready(function() {
+ $('form#commentform').submit(function() {
+  $('form#commentform .error').remove();
+  var hasError = false;
+  $('.requiredField').each(function() {
+   if(jQuery.trim($(this).val()) == '') {
+    var labelText = $(this).prev('label').text().replace(' *','');
+    $(this).parent().append('<span class="error">'+labelText+' is a required field.</span>');
+    hasError = true;
+   }
+  });
+  <strong>if(hasError) {
+   return false;
+  }</strong>
+ });
+}); 
 ?>
