@@ -7,12 +7,17 @@
 + List by tag design
 / Global variables defined (decide what for, there is only mega pics url so far)
 + Post without a picture design
-- Wordpress migration (chose posts to migrate or move all of them)
-- Porfolio migration
+- Wordpress migration (chose posts to migrate or move all of them), add lists and bold-italic tags conversion, make full sidenote conversion, find out how to embed html
+- Porfolio migration and more of that — creation
 + Tag page differentiation for English and Russian posts
-+ Forwarding from the root to the last created work or blog post
++ Forwarding from the menu to the last created work or blog post
 + Roman numerals in comments
 + Links in comments
 - Adding a comment routine (don't forget about logging in)
 + Languages in comments
 S link__fake underline in Work
+- Redirect for /work/ and /mega/ sections to the last work (using .htaccess)
+- More vertical space between See also links in work
+- Fix comments dates and blog post headers on mobile
+- Fix horizontal scroll for mega on mobile
+- Prev/Next hide on mobile when on first/last

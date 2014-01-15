@@ -203,7 +203,7 @@ body{font-family:DaxlinePro,Helvetica,Arial,sans-serif}
 }@media (max-width:500px){.post-content__social-aside,.post-content__main{position:static;display:block;float:none;width:auto;margin-left:0;margin-right:0}
 .post-content__social-aside{margin-bottom:20px}
 }.figure{margin-bottom:35px;}
-.figure__img{max-width:100%;margin-bottom:10px}
+.figure__img{max-width:auto;margin-bottom:10px}
 .figure-i{margin-left:-8px;margin-right:-8px}
 .figure-i:before,.figure-i:after{content:"";display:table}
 .figure-i:after{clear:both}

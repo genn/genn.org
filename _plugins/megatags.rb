@@ -13,6 +13,22 @@ module Jekyll
     end
   end
 
+  class FigureInfoTag < Liquid::Tag
+    def initialize(tag_name, text, tokens)
+      super
+      @desc = text
+      @output = "<div class=\"figure-i\">
+    <div class=\"figure__caption\">
+        #{@desc}
+    </div></div>"
+    end
+
+    def render(context)
+        return @output
+    end
+  end
+
+
   class FigureTag < Liquid::Tag
     def initialize(tag_name, text, tokens)
       super
@@ -63,5 +79,6 @@ module Jekyll
 end
 
 Liquid::Template.register_tag('sidenote', Jekyll::SideNoteTag)
+Liquid::Template.register_tag('figureinfo', Jekyll::FigureInfoTag)
 Liquid::Template.register_tag('figure', Jekyll::FigureTag)
 Liquid::Template.register_tag('spread', Jekyll::SpreadTag)

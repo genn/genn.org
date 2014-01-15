@@ -4,7 +4,7 @@ title: Cartoon Network
 slug: cartoon-network
 category: work
 description: Illustration agency naming, identity, website and promo materials
-relatedlinks: [{link: /mega/11/, title: Eleven}, {link: /mega/12/, title: Twalwhe}]
+relatedlinks: [{link: /mega/e11even/, title: Geodesical Dome — having fun with information  }, {link: /mega/count-to-ten-mega/, title: Count to ten}]
 mainpicture: logo.svg
 ---
 
