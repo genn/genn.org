@@ -31,7 +31,7 @@ To get the most exact definition head to [Wikipedia](http://en.wikipedia.org/wik
 
 ## How can I make usable sparklines?
 
-To make sparklines usable and useful first decide if you need any and what data you want to decorate. Then decide what type of graph you want to use. Examples are shown in illustrations below. But first I want to discuss visualization of graphs as sparklines. A lot of useful advises are given by Edward Tufte (he is the author of the term <i>sparkline</i><i>) in his [Sparklines: theory and practice](http://www.edwardtufte.com/bboard/q-and-a-fetch-msg?msg_id=0001OR). I like this article because I read it when I was finishing making sparklines for Invest Gazeta and found out that almost all solutions I came up with equal to Edward's.
+To make sparklines usable and useful first decide if you need any and what data you want to decorate. Then decide what type of graph you want to use. Examples are shown in illustrations below. But first I want to discuss visualization of graphs as sparklines. A lot of useful advises are given by Edward Tufte (he is the author of the term <i>sparkline</i>) in his [Sparklines: theory and practice](http://www.edwardtufte.com/bboard/q-and-a-fetch-msg?msg_id=0001OR). I like this article because I read it when I was finishing making sparklines for Invest Gazeta and found out that almost all solutions I came up with equal to Edward's.
 
 
 ## How do sparklines look anyway?
@@ -44,7 +44,7 @@ Illustrations, finally. Below are several examples I made for Invest Gazeta. As 
 
 
 
-There are two columns with sparklines in this table: </i><i>Last known temperature</i> and <i>How likely air smells</i>. I used progress bar to illustrate how likely air smells because people are used to progress bar and percentage nowadays.
+There are two columns with sparklines in this table: <i>Last known temperature</i> and <i>How likely air smells</i>. I used progress bar to illustrate how likely air smells because people are used to progress bar and percentage nowadays.
 
 
 

@@ -17,10 +17,10 @@ module Jekyll
     def initialize(tag_name, text, tokens)
       super
       @desc = text
-      @output = "<div class=\"figure-i\">
+      @output = "<div class=\"figure\"><div class=\"figure-i\">
     <div class=\"figure__caption\">
         #{@desc}
-    </div></div>"
+    </div></div></div>"
     end
 
     def render(context)

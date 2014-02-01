@@ -12,36 +12,23 @@ postid: 2028
 
 I found a link to [stoplight concept](http://www.yankodesign.com/2009/11/30/a-better-understanding-of-stoplights/) of Damjan Stanković on dirty.ru. Designer offers to add sectors round the stop light so the drivers could see how soon they can move again and stop their engines thus saving gas and nature.<!--more-->
 
-
-
-{% figure http://www.yankodesign.com/images/design_news/2009/11/29/eko04.jpg %}
-
-
-
-
-{% figureinfo Damjan Stanković "Eko stoplight" concept
+{% figure http://www.yankodesign.com/images/design_news/2009/11/29/eko04.jpg~Damjan Stanković "Eko stoplight" concept %}
 
 I like the idea and the contemplations but there are some problems with the product itself:
+
 <ul>
 	<li>the red light reduces — the less time left, the smaller the red light, the less chances you'll notice it;</li>
 	<li>uncertainty about the ending — the last sector is placed on the top, the stoplight are usually hung very high and the last sector is in the topmost position of the stoplight;</li>
 	<li>different stoplights ave different time intervals, so we should vary the speed of the segments disappearing and that would confuse — people are concentrated on the road not on the patterns creation to understand stoplights, so this invention makes the simple object (as it has to be) more complicated;</li>
 	<li>the old technology — LEDs are widely used nowadays to create stoplights instead of lamps behind colored glass as it is shown in the concept. LEDs are better because they are useful even when the sun is blinding. Furthermore it would be expensive to create such stoplights without LEDs.</li>
-</ul>
+</ul><br />
 
 
 ## Conveniet traffic light
 
 
 
-{% figure /o_O/sorry-mario-the-princess-is-right-after-the-crossroads/convenient-traffic-light-381x1024.png %}
-
-
- %}
-
-
-
-{% figureinfo See [full size](http://mega.genn.org/=^_^=/uploads/2009/12/convenient-traffic-light.png) %}
+{% figure /o_O/sorry-mario-the-princess-is-right-after-the-crossroads/convenient-traffic-light-381x1024.png~See [full size](http://mega.genn.org/=^_^=/uploads/2009/12/convenient-traffic-light.png) %}
 
 
 
@@ -54,7 +41,7 @@ I sketched a pixel font that would look good on the traffic light concept I sugg
 
 
 
-{% figure /o_O/sorry-mario-the-princess-is-right-after-the-crossroads/traffic-light-font.png %}
+{% spread /o_O/sorry-mario-the-princess-is-right-after-the-crossroads/traffic-light-font.png %}
 
 
 
@@ -64,12 +51,7 @@ I sketched a pixel font that would look good on the traffic light concept I sugg
 ## More features
 
 As far as LEDs are used there are a lot of ways to inform and control drivers. Examples including cyrillic localization are shown below.
-<div style="width: 838px;">
 
 {% figure /o_O/sorry-mario-the-princess-is-right-after-the-crossroads/go-right.gif %}
 
-
-
 {% figure /o_O/sorry-mario-the-princess-is-right-after-the-crossroads/convenient-signs.png %}
-
-</div>

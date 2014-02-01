@@ -29,10 +29,10 @@ I could even recommend where to dine but hard it very hard to lead you to the ce
 
 We lived in the center of Lisbon near the Rossio square. We explored every street there — steep, incredible and captivating.
 
-<iframe width="636" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?cbp=11,313.87,,0,10.12&amp;cbll=38.711868,-9.130938&amp;layer=c&amp;ie=UTF8&amp;panoid=jCYKYxGKjmvHFF3KBRP2JQ&amp;source=embed&amp;ll=38.710906,-9.130937&amp;spn=0.003349,0.006824&amp;z=17&amp;output=svembed"></iframe>
+<!--<iframe width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?cbp=11,313.87,,0,10.12&amp;cbll=38.711868,-9.130938&amp;layer=c&amp;ie=UTF8&amp;panoid=jCYKYxGKjmvHFF3KBRP2JQ&amp;source=embed&amp;ll=38.710906,-9.130937&amp;spn=0.003349,0.006824&amp;z=17&amp;output=svembed"></iframe>-->
 
 
-{% figureinfo [Bigger](http://maps.google.com/maps?cbp=11,313.87,,0,10.12&cbll=38.711820,-9.130950&ll=38.711820,-9.130950&layer=c) at Google Maps %}
+{% figureinfo <a href="http://maps.google.com/maps?cbp=11,313.87,,0,10.12&amp;cbll=38.711820,-9.130950&amp;ll=38.711820,-9.130950&amp;layer=c">Bigger</a> at Google Maps %}
 
 
 
@@ -42,7 +42,7 @@ There is also a museum of the city in the center of Lisbon. It is told about how
 
 
 
-{% figure /o_O/portugal-pro/lisbon0.jpg~Street in the center of Lisbon. [This photo on flickr](http://www.flickr.com/photos/genn-org/3129800317/) %}
+{% figure /o_O/portugal-pro/lisbon0.jpg~Street in the center of Lisbon. <a href="http://www.flickr.com/photos/genn-org/3129800317/">This photo on flickr</a> %}
 
 
 
@@ -50,7 +50,7 @@ When you'll take a walk at the evening visit the center (we lived in Baixa and I
 
 
 
-{% figure /o_O/portugal-pro/lisbon1.jpg~[This photo on flickr](http://www.flickr.com/photos/genn-org/3129795551/) %}
+{% figure /o_O/portugal-pro/lisbon1.jpg~<a href="http://www.flickr.com/photos/genn-org/3129795551/">This photo on flickr</a> %}
 
 
 
@@ -58,7 +58,7 @@ Oh! I almost forgot! Visit oceanarium. It is on Vasco da Gamma subway station.
 
 
 
-{% figure /o_O/portugal-pro/lisbon2.jpg~[This photo on flickr](http://www.flickr.com/photos/genn-org/3129805521/in/set-72157616572570642/) %}
+{% figure /o_O/portugal-pro/lisbon2.jpg~<a href="http://www.flickr.com/photos/genn-org/3129805521/in/set-72157616572570642/">This photo on flickr</a> %}
 
 
 
@@ -66,7 +66,7 @@ Go by subway and become impressed by the station as soon as you arrive. It's sub
 
 
 
-{% figure /o_O/portugal-pro/lisbon3.jpg~[Photo on flickr](http://www.flickr.com/photos/genn-org/3129802427/in/set-72157616572570642/) %}
+{% figure /o_O/portugal-pro/lisbon3.jpg~<a href="http://www.flickr.com/photos/genn-org/3129802427/in/set-72157616572570642/">Photo on flickr</a> %}
 
 
 
@@ -74,7 +74,7 @@ You can eat not just in restaurants but in every street bistro — it's cheap an
 
 
 
-{% figure /o_O/portugal-pro/lisbon4.jpg~Everyday Baixa. [This photo on flickr](http://www.flickr.com/photos/genn-org/3130623302/in/set-72157616572570642/) %}
+{% figure /o_O/portugal-pro/lisbon4.jpg~Everyday Baixa. <a href="http://www.flickr.com/photos/genn-org/3130623302/in/set-72157616572570642/">This photo on flickr</a> %}
 
 
 
@@ -82,7 +82,7 @@ I advised nothing special in general. I prefer to roaming about the cities, feel
 
 
 
-{% figure /o_O/portugal-pro/lisbon5.jpg~[This photo on flickr](http://www.flickr.com/photos/genn-org/3129800975/in/set-72157616572570642/) %}
+{% figure /o_O/portugal-pro/lisbon5.jpg~<a href="http://www.flickr.com/photos/genn-org/3129800975/in/set-72157616572570642/">This photo on flickr</a> %}
 
 
 
