@@ -53,6 +53,6 @@
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
 	<script>!window.jQuery && document.write(unescape('%3Cscript src="/js/libs/jquery-1.9.1.min.js"%3E%3C/script%3E'))</script>
 	<script src="/build/scripts.js"></script>
-	<script src="http://mega.genn.org/revealthecrowd.php?postid={{ page.postid }}"></script>
+	{% if page.categories[0] == 'mega' and page.categories[1] != 'tags' %}<script src="http://mega.genn.org/revealthecrowd.php?postid={{ page.postid }}"></script>{% endif %}
 </body>
 </html>
