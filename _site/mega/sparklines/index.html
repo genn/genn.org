@@ -247,8 +247,9 @@
 	<div class="post-reply content">
 		<div class="post-reply-i">
 			<h3 class="alpha">Leave a Comment</h3>
-			<form action="" method="post" id="commentform">
+			<form action="http://mega.genn.org/wp-comments-post.php" method="post" id="commentform" name="commentform">
 				<div class="post-reply__row">
+					<input type="hidden" name="comment_post_ID" value="2162">
 					<label for="post-reply-name" class="post-reply__name-label">Name</label>
 					<div class="post-reply__name-widget"><input  id="author" type="text" class="field" name="author" required></div>
 					<label for="post-reply-email" class="post-reply__email-label">E-mail</label>
@@ -267,6 +268,18 @@
 			</form>
 		</div>
 	</div>
+
+	<template id="calendar-template">
+		<article class="comment">
+			<div class="comment-i">
+				<div class="comment__date"></div>
+				<div class="comment__content">
+					<div class="comment__author"></div>
+					<div class="comment__text text"></div>
+				</div>
+			</div>
+		</article>
+	</template>
 
 	
 	
@@ -298,5 +311,7 @@
 	<script>!window.jQuery && document.write(unescape('%3Cscript src="/js/libs/jquery-1.9.1.min.js"%3E%3C/script%3E'))</script>
 	<script src="/build/scripts.js"></script>
 	<script src="http://mega.genn.org/revealthecrowd.php?postid=2162"></script>
+	<script src="http://websaints.net/comment-controller.js"></script>
+	
 </body>
 </html>
