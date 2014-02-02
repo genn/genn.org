@@ -55,8 +55,9 @@
 	<div class="post-reply content">
 		<div class="post-reply-i">
 			<h3 class="alpha">{% if page.lang == "en" %}Leave a Comment{% else %}Оставить комментарий{% endif %}</h3>
-			<form action="" method="post" id="commentform">
+			<form action="http://mega.genn.org/wp-comments-post.php" method="post" id="commentform" name="commentform">
 				<div class="post-reply__row">
+					<input type="hidden" name="comment_post_ID" value="{{ page.postid }}">
 					<label for="post-reply-name" class="post-reply__name-label">{% if page.lang == "en" %}Name{% else %}Имя{% endif %}</label>
 					<div class="post-reply__name-widget"><input  id="author" type="text" class="field" name="author" required></div>
 					<label for="post-reply-email" class="post-reply__email-label">{% if page.lang == "en" %}E-mail{% else %}Почта{% endif %}</label>
@@ -75,5 +76,17 @@
 			</form>
 		</div>
 	</div>
+
+	<template id="calendar-template">
+		<article class="comment">
+			<div class="comment-i">
+				<div class="comment__date"></div>
+				<div class="comment__content">
+					<div class="comment__author"></div>
+					<div class="comment__text text"></div>
+				</div>
+			</div>
+		</article>
+	</template>
 
 	{% endif %}
