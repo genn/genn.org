@@ -215,7 +215,7 @@ body{font-family:DaxlinePro,Helvetica,Arial,sans-serif}
 .aside-i p{font-size:14px}
 .spread{margin-left:-8px;margin-right:-8px;}
 .spread-i{padding-left:8px;padding-right:8px;width:137.5%;}
-.spread-i img{width:100%;height:auto}
+.spread-i img{width:auto;height:auto}
 @media (max-width:900px){.aside-i,.spread-i{position:static;display:block;float:none;width:auto;margin-left:0;margin-right:0}
 }.post-comments{margin-top:35px;margin-bottom:35px;}
 .post-comments-i{width:66.66666666666667%;margin-left:8.333333333333334%}
@@ -374,3 +374,7 @@ body{font-family:DaxlinePro,Helvetica,Arial,sans-serif}
 .about-randoms__item{margin-bottom:5px;font-size:14px;color:#9a9a9a}
 @media (max-width:800px){.about-randoms{display:none}
 }.copyrights{opacity:.5;font-size:14px}
+.social-likes_vertical .social-likes__widget{min-width:0 !important}
+.social-likes__button{padding:.3em .7em 0 1.65em}
+.social-likes__button,.social-likes__counter{font-family:DaxlinePro,Helvetica,Arial,sans-serif}
+.social-likes__icon_facebook{top:.1em}
