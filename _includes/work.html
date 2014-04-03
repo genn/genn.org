@@ -8,7 +8,12 @@
 				<div class="work__description text">
 					<p>{{ page.description }}</p>
 				</div>
-				<div class="work__social">Social</div>
+				<div class="work__social">
+					<div class="social-likes social-likes_light">
+						<div class="facebook" title="Share link on Facebook">Facebook</div>
+						<div class="twitter" title="Share link on Twitter">Twitter</div>
+					</div>
+				</div>
 				{% if page.relatedlinks.size != 0 %}<div class="work__see-also work-see-also">
 					<div class="work-see-also__title">Also check{% if page.relatedlinks.size == 1 %} this blog post{% else %} these blog posts{% endif %}:</div>
 					<ul class="work-see-also__links">
