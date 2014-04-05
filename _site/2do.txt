@@ -23,3 +23,11 @@ S link__fake underline in Work
 - Prev/Next hide on mobile when on first/last
 - Fix sidenotes images - descriptions interval
 - Fix interval before {% figureinfo %}
+
+
+2 Artem
+
+1. Social likes column should be removed for ipad width. Top social likes become horizontal on ipad width.
+2. All images in works should be from side to side on the ipad width.
+3. Comments number and other data should start the next line after the heading ipad and iphone width.
+4. Works should be from side to side ipad width.
