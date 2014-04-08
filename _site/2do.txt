@@ -17,17 +17,18 @@
 + Languages in comments
 S link__fake underline in Work
 - Redirect for /work/ and /mega/ sections to the last work (using .htaccess)
-- More vertical space between See also links in work
++ More vertical space between See also links in work
 - Fix comments dates and blog post headers on mobile
 - Fix horizontal scroll for mega on mobile
 - Prev/Next hide on mobile when on first/last
-- Fix sidenotes images - descriptions interval
-- Fix interval before {% figureinfo %}
++ Fix sidenotes images - descriptions interval
+? Fix interval before {% figureinfo %}
 
 
 2 Artem
 
-1. Social likes column should be removed for ipad width. Top social likes become horizontal on ipad width.
-2. All images in works should be from side to side on the ipad width.
-3. Comments number and other data should start the next line after the heading ipad and iphone width.
-4. Works should be from side to side ipad width.
+1. Mega: Social likes column should be removed for ipad width. Top social likes become horizontal on ipad width.
+2. Work: First image in works should have adjustable position and be from side to side on iphone.
+3. Mega: Comments number and other data should start the next line after the heading ipad and iphone width.
+4. Mega & Work: All images should be from side to side iPhone width
+5. Mega & Work: Fix Fotorama. Multiple galleries, adequate switching, no scrolling effects
