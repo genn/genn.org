@@ -377,6 +377,6 @@ body{font-family:DaxlinePro,Helvetica,Arial,sans-serif}
 @media (max-width:800px){.about-randoms{display:none}
 }.copyrights{opacity:.5;font-size:14px}
 .social-likes_vertical .social-likes__widget{min-width:0 !important}
-.social-likes__button{padding:.3em .7em 0 1.65em}
-.social-likes__button,.social-likes__counter{font-family:DaxlinePro,Helvetica,Arial,sans-serif}
-.social-likes__icon_facebook{top:.1em}
+.social-likes__button{padding:.3em .7em 0 1.65em !important}
+.social-likes__button,.social-likes__counter{font-family:DaxlinePro,Helvetica,Arial,sans-serif !important}
+.social-likes__icon_facebook{top:.1em !important}
