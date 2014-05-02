@@ -5,7 +5,7 @@ slug: smrt-armour
 category: work
 description: Nerdy t-shirts design
 relatedlinks: []
-mainpicture: logo.svg
+mainpicture: tdouble.png
 ---
 {% include workcontentheader.html %}
 	<img src="/ohyeah/{{ page.slug }}/t0.png" class="work__figure">
