@@ -6,7 +6,7 @@
 		{% for category in site.categories %}
 			{% if category.first == 'mega' %}
 				{% assign megaposts = category.last %}
-			{% else if category.first == 'work' %}
+			{% elsif category.first == 'work' %}
 				{% assign workposts = category.last%}
 			{% endif %}
 		{% endfor %} 
