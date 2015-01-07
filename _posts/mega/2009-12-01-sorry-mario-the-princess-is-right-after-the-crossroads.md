@@ -28,7 +28,7 @@ I like the idea and the contemplations but there are some problems with the prod
 
 
 
-{% figure /o_O/sorry-mario-the-princess-is-right-after-the-crossroads/convenient-traffic-light-381x1024.png~See [full size](http://mega.genn.org/=^_^=/uploads/2009/12/convenient-traffic-light.png) %}
+{% figure /o_O/sorry-mario-the-princess-is-right-after-the-crossroads/convenient-traffic-light-381x1024.png~See [full size](/mega/=^_^=/uploads/2009/12/convenient-traffic-light.png) %}
 
 
 

@@ -8,10 +8,6 @@ relatedlinks: []
 mainpicture: logo.svg
 ---
 
-{% include workgalleryheader.html %}
-	<img src="/ohyeah/{{ page.slug }}/main.jpg" class="work__figure" alt="Main">
-{% include workgalleryfooter.html %}
-
 {% include workcontentheader.html %}
 	<div style="background-color: #fff;">
 		<img src="/ohyeah/{{ page.slug }}/icon0.png" class="work__figure">
@@ -42,3 +38,10 @@ mainpicture: logo.svg
 		<img src="/ohyeah/{{ page.slug }}/icon26.png" class="work__figure">
 	</div>
 {% include workcontentfooter.html %}
+
+{% include workgalleryheader.html %}
+	<img src="/ohyeah/{{ page.slug }}/main.jpg" class="work__figure" alt="Main">
+	<img src="/ohyeah/{{ page.slug }}/post.jpg" class="work__figure" alt="Post">
+	<img src="/ohyeah/{{ page.slug }}/profile.png" class="work__figure" alt="Author profile">
+	<img src="/ohyeah/{{ page.slug }}/profile-self.png" class="work__figure" alt="User profile">
+{% include workgalleryfooter.html %}

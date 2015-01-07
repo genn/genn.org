@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	{% for category in site.categories %}
+		{% if category.first == page.redirect %}
+			{% assign categoryposts = category.last %}
+		{% endif %}
+	{% endfor %} 
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta http-equiv="refresh" content="0;url=/{{ page.redirect }}/{{ categoryposts[0].slug }}/" />
+	<link href="/build/styles.css" rel="stylesheet">
+	<!--[if lt IE 9]><link href="/styles/ie.css" rel="stylesheet"><![endif]-->
+
+</head>
+
+<body>
+	<header class="header">
+		<div class="header-i">
+			<div class="logo">Genn.org</div>
+		</div>
+	</header>
+
+You found a secret place! Redirecting you to the latest {{ page.redirect }} ^____^
+</body>
+</html>
