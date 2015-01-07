@@ -10,7 +10,7 @@ postid: 1758
 ---
 
 
-It's almost a year since I've [visited Portugal](http://mega.genn.org/2008/boas-lisboa). I can't forget this country and want to come back to comfy streets of Lisbon, feel +20 °C in December, walk by bank and finally buy that t-shirt with tram #28 on it. I didn't think that I want it so much until Tonya Shoo asked me [in facebook](http://www.facebook.com/genn.osypenko/): "Hello! I've noticed you've been to Lisbon. We are going there too, would you please recommend anything?… I've already read about Vino Verde." I wanted to write something brief and clear, but tough luck ;)<!--more-->
+It's almost a year since I've <a href="http://mega.genn.org/2008/boas-lisboa">visited Portugal</a>. I can't forget this country and want to come back to comfy streets of Lisbon, feel +20 °C in December, walk by bank and finally buy that t-shirt with tram #28 on it. I didn't think that I want it so much until Tonya Shoo asked me <a href="http://www.facebook.com/genn.osypenko/">in facebook</a>: "Hello! I've noticed you've been to Lisbon. We are going there too, would you please recommend anything?… I've already read about Vino Verde." I wanted to write something brief and clear, but tough luck ;)<!--more-->
 
 
 ## My answer
@@ -21,22 +21,22 @@ I'd recommend to visit Sintra — just 50 km away from Libon on very comfortable
 
 
 
-{% figure /o_O/portugal-pro/sintra.jpg~Sintra Royal Palace. [This photo at flickr](http://www.flickr.com/photos/genn-org/4053512278/) %}
+{% figure /o_O/portugal-pro/sintra.jpg~Sintra Royal Palace. <a href="http://www.flickr.com/photos/genn-org/4053512278/">This photo at flickr</a> %}
 
 
 
-I could even recommend where to dine but hard it very hard to lead you to the certain place. When you'll go to (or from) the castle on the top of the mountain, ask the bus driver to stop right before botanical garden exit. If you enter the [botanical garden](http://www.flickr.com/photos/genn-org/tags/botanicalgarden/) using the wrong entrance, you can't understand where you are. I've got mystical experience with that. Really! We didn't understand where we were while modern art (sculptures and installations) with everything muffled up with fog and almost transparent local who passed by with axe completely ignoring us made us believe that it's not the reality we used to live in but something magical!
+I could even recommend where to dine but hard it very hard to lead you to the certain place. When you'll go to (or from) the castle on the top of the mountain, ask the bus driver to stop right before botanical garden exit. If you enter the <a href="http://www.flickr.com/photos/genn-org/tags/botanicalgarden/">botanical garden</a> using the wrong entrance, you can't understand where you are. I've got mystical experience with that. Really! We didn't understand where we were while modern art (sculptures and installations) with everything muffled up with fog and almost transparent local who passed by with axe completely ignoring us made us believe that it's not the reality we used to live in but something magical!
 
 We lived in the center of Lisbon near the Rossio square. We explored every street there — steep, incredible and captivating.
 
-<!--<iframe width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?cbp=11,313.87,,0,10.12&amp;cbll=38.711868,-9.130938&amp;layer=c&amp;ie=UTF8&amp;panoid=jCYKYxGKjmvHFF3KBRP2JQ&amp;source=embed&amp;ll=38.710906,-9.130937&amp;spn=0.003349,0.006824&amp;z=17&amp;output=svembed"></iframe>-->
+<iframe width="636" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?cbp=11,313.87,,0,10.12&amp;cbll=38.711868,-9.130938&amp;layer=c&amp;ie=UTF8&amp;panoid=jCYKYxGKjmvHFF3KBRP2JQ&amp;source=embed&amp;ll=38.710906,-9.130937&amp;spn=0.003349,0.006824&amp;z=17&amp;output=svembed"></iframe>
 
 
-{% figureinfo <a href="http://maps.google.com/maps?cbp=11,313.87,,0,10.12&amp;cbll=38.711820,-9.130950&amp;ll=38.711820,-9.130950&amp;layer=c">Bigger</a> at Google Maps %}
+{% figureinfo <a href="http://maps.google.com/maps?cbp=11,313.87,,0,10.12&cbll=38.711820,-9.130950&ll=38.711820,-9.130950&layer=c">Bigger</a> at Google Maps %}
 
 
 
-[We took photos of ornaments](http://www.flickr.com/photos/genn-org/sets/72157616571451626/) on all the houses. Pay attention to them. Then one night on square, right to Mundial hotel (it must be from behind) take a ride with tram #28 — rad! It goes all over the city center.
+<a href="http://www.flickr.com/photos/genn-org/sets/72157616571451626/">We took photos of ornaments</a> on all the houses. Pay attention to them. Then one night on square, right to Mundial hotel (it must be from behind) take a ride with tram #28 — rad! It goes all over the city center.
 
 There is also a museum of the city in the center of Lisbon. It is told about how they rehabilitated the city after the earthquakes. I was amazed how considered where their plans centuries ago. They thought of everything and due to that traffic jam in the center of Lisbon is uncommon.
 
