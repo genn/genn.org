@@ -1,6 +1,6 @@
-serve: true
-permalink: /:categories/:title`/
-exclude: ['node_modules', 'tamia', 'Gruntfile.coffee', '.gitignore', 'readme.md', 'wp', 'revealthecrowd.php', 'sapegin', 'indexold.html', 'styles', 'mega.html', 'info.html', 'work.html', 'getposts.php', 'add.txt', '2do.txt', 'elements.html']
+server: true
+permalink: /:categories/:title/
+exclude: ['node_modules', 'tamia', 'Gruntfile.coffee', '.gitignore', 'readme.md', 'wp', 'revealthecrowd.php', 'sapegin']
 excerpt_separator: <!--more-->
 
 mega: 

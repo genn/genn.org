@@ -1,0 +1,34 @@
++ Multilanguage with normal Prev/Next
++ Fix Next position in menu for the first element
++ Change phone number to something else
++ Comments
++ Prev/Next hide when on first/last
++ Fix summa plus CSS man 
++ List by tag design
+/ Global variables defined (decide what for, there is only mega pics url so far)
++ Post without a picture design
+- Wordpress migration (chose posts to migrate or move all of them), add lists and bold-italic tags conversion, make full sidenote conversion, find out how to embed html
+- Porfolio migration and more of that — creation
++ Tag page differentiation for English and Russian posts
++ Forwarding from the menu to the last created work or blog post
++ Roman numerals in comments
++ Links in comments
+- Adding a comment routine (don't forget about logging in)
++ Languages in comments
+S link__fake underline in Work
+- Redirect for /work/ and /mega/ sections to the last work (using .htaccess)
++ More vertical space between See also links in work
+- Fix comments dates and blog post headers on mobile
+- Fix horizontal scroll for mega on mobile
+- Prev/Next hide on mobile when on first/last
++ Fix sidenotes images - descriptions interval
+? Fix interval before {% figureinfo %}
+
+
+2 Artem
+
+1. Mega: Social likes column should be removed for ipad width. Top social likes become horizontal on ipad width.
+2. Work: First image in works should have adjustable position and be from side to side on iphone.
+3. Mega: Comments number and other data should start the next line after the heading ipad and iphone width.
+4. Mega & Work: All images should be from side to side iPhone width
+5. Mega & Work: Fix Fotorama. Multiple galleries, adequate switching, no scrolling effects

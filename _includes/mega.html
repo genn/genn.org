@@ -20,7 +20,7 @@
 				<div class="post-header__meta">
 					<div class="post-header__meta-i">
 						<div class="post-header__date post-date">{{ page.date | date: "%d&thinsp;/ %m&thinsp;/&thinsp;%Y" | replace_first: "/ 01", "/&thinsp;I"  | replace_first: "/ 02", "/&thinsp;II"  | replace_first: "/ 03", "/&thinsp;III"  | replace_first: "/ 04", "/&thinsp;IV"  | replace_first: "/ 05", "/&thinsp;V"  | replace_first: "/ 06", "/&thinsp;VI"  | replace_first: "/ 07", "/&thinsp;VII"  | replace_first: "/ 08", "/&thinsp;VIII"  | replace_first: "/ 09", "/&thinsp;IX"  | replace_first: "/ 10", "/&thinsp;X"  | replace_first: "/ 11", "/&thinsp;XI"  | replace_first: "/ 12", "/&thinsp;XII" }}</div>
-						<div class="post-header__translation post-translation"><a href="/mega{% if page.lang == 'en' %}/ru{% endif %}/{{ page.slug }}/" class="link" lang="{{ page.lang }}"><!-- {% if page.lang == 'en' %}По-русски{% else %}In English{% endif %}</a>--></div>
+						<div class="post-header__translation post-translation"><a href="/mega{% if page.lang == 'en' %}/ru{% endif %}/{{ page.slug }}/" class="link" lang="{{ page.lang }}">{% if page.lang == 'en' %}По-русски{% else %}In English{% endif %}</a></div>
 					</div>
 					<ul class="post-header__tags post-tags">
 						{% for tag in page.tags %}
@@ -52,7 +52,6 @@
 					</div>
 				</div>
 			</div>
-			{% include bottomnav.html %}
 		</div>
 	</div>
 	<div class="post-comments content">
