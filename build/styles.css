@@ -173,13 +173,13 @@ body{font-family:DaxlinePro,Helvetica,Arial,sans-serif}
 .post-header__title-i:after,.post-header__meta:after{clear:both}
 }@media (max-width:500px){.post-header__title-i,.post-header__meta{position:static;display:block;float:none;width:auto;margin-left:0;margin-right:0}
 .post-header__title-i{margin:0 -10px}
-.post-header__comments-count{position:relative;top:-24px;display:block;margin-left:10px}
+.post-header__comments-count{position:relative;top:-24px;display:none !important;margin-left:10px}
 .post-header__meta{margin-bottom:20px;padding-top:5px}
 .post-header__date,.post-header__translation{position:static}
-.post-header__date{width:33.333333333333336%;margin-left:33.333333333333336%;float:left;margin-right:-100%;padding-left:8.5px;padding-right:8.5px}
-.post-header__translation{width:83.33333333333334%;margin-left:58.333333333333336%;float:left;margin-right:-100%;padding-left:8.5px;padding-right:8.5px}
+.post-header__date{width: 40%;margin-left: 0;float: left;margin-right: 0;padding-left: 8.5px;padding-right: 8.5px;}
+.post-header__translation{width: 40%;margin-left: 0;float: right;margin-right: 0;padding-left: 8.5px;padding-right: 8.5px;}
 .post-header__tags{display:none}
-.post-header__title-i-i{width:66.66666666666667%;margin-left:0%}
+.post-header__title-i-i{width:66.66666666666667%;margin-left:0%;bottom:-1em;}
 .post-header__title-i-i:before,.post-header__title-i-i:after{content:"";display:table}
 .post-header__title-i-i:after{clear:both}
 }.post-title{display:inline-block}
