@@ -18,14 +18,14 @@
 				<a href="/info" class="nav__item nav__item_info" data-id="info">
 					<span class="nav__item__text">Info</span>
 				</a>
-				<a href="{{ workposts[0].url }}" class="nav__item nav__item_work" data-id="work">
+				<a href="/work" class="nav__item nav__item_work" data-id="work">
 					<span class="nav__item__text">Work</span>
 					{% if page.categories[0] == 'work' %}<div class="nav__subnav nav__subnav_work postnavs">
 						{% if prev %}<span class="nav__subnav__item postnav js-prev">Previous</span>{% endif %}
 						{% if next %}<span class="nav__subnav__item postnav js-next {% if prev %}{% else %}noprev{% endif %}">Next</span>{% endif %}
 					</div>{% endif %}
 				</a>
-				<a href="{{ megaposts[0].url }}" class="nav__item nav__item_mega" data-id="mega">
+				<a href="/mega" class="nav__item nav__item_mega" data-id="mega">
 					{% if page.categories[0] == 'mega' and page.categories[1] != 'tags' %}<div class="nav__subnav nav__subnav_mega postnavs">
 						{% if prev %}<span class="nav__subnav__item postnav js-prev">{% if page.lang == "en" %}Previous{% else %}⟵{% endif %}</span>{% endif %}
 						{% if next %}<span class="nav__subnav__item postnav js-next {% if prev %}{% else %}noprev{% endif %}">{% if page.lang == "en" %}Next{% else %}⟶{% endif %}</span>{% endif %}

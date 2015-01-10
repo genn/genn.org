@@ -42,7 +42,15 @@
 				</div>
 				<div class="post-content__main">
 					<div class="post-content__text text">
-{{ content }}						
+					{% if page.translated == false %}
+						{% if page.lang == 'en' %}
+					This post is only <a href="/mega/ru/{{ page.slug }}/">available in Russian</a>. Sorry about that ^__- 
+						{% else %}
+					Этот пост можно <a href="/mega/{{ page.slug }}/">прочитать только на английском языке</a>. Sorry about that ^__- 
+						{% endif %}					
+					{% else %}
+					{{ content }}
+					{% endif %}
 					</div>
 					<div class="post-content__social-bottom">
 						<div class="social-likes">
