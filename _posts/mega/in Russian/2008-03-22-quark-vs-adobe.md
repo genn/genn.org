@@ -2,7 +2,7 @@
 layout: default
 categories: [mega, ru]
 lang: ru
-title: QuarkXPress и Adobe InDesign: круглое катить, квадратное толкать
+title: QuarkXPress и Adobe InDesign&#58; круглое катить, квадратное толкать
 slug: quark-vs-adobe
 tags: adobe conference design flash information laboratory 8 
 postid: 293

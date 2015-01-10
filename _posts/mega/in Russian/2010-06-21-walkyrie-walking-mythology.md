@@ -2,7 +2,7 @@
 layout: default
 categories: [mega, ru]
 lang: ru
-title: Walkyrie: мифология прогулок
+title: Walkyrie&#58; мифология прогулок
 slug: walkyrie-walking-mythology
 mainpicture: walkyrie.jpg
 tags: design emo friends fun information reading stuff 

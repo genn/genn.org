@@ -2,7 +2,7 @@
 layout: default
 categories: [mega, ru]
 lang: ru
-title: Hancock: папье-маше из испорченных идей
+title: Hancock&#58; папье-маше из испорченных идей
 slug: hancock-does-sucks
 tags: cinema sux 
 postid: 444

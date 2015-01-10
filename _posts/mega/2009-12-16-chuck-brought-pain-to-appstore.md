@@ -2,7 +2,7 @@
 layout: default
 category: mega
 lang: en
-title: Chuck Norris fact no. ∞: He ruins App Store with terror
+title: Chuck Norris fact no. &infin;&#58; He ruins App Store with terror
 slug: chuck-brought-pain-to-appstore
 mainpicture: chuck-approved.png
 tags: apple baka-baka design emo gui information iphone sux 

@@ -2,7 +2,7 @@
 layout: default
 categories: [mega, ru]
 lang: ru
-title: Terminal: Rise of the Machines
+title: Terminal&#58; Rise of the Machines
 slug: singing-terminal
 tags: apple friends fun music stuff 
 postid: 446

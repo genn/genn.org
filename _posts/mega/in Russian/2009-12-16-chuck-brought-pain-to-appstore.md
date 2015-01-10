@@ -2,7 +2,7 @@
 layout: default
 categories: [mega, ru]
 lang: ru
-title: Факт о Чаке Норрисе №∞: Он может испортить App Store террором
+title: Факт о Чаке Норрисе №&infin;&#58; Он может испортить App Store террором
 slug: chuck-brought-pain-to-appstore
 mainpicture: chuck-approved.png
 tags: apple baka-baka design emo gui information iphone sux 

@@ -3,7 +3,7 @@ layout: default
 category: mega
 lang: en
 title: (Russian) Я в Индейке
-slug: %d0%af-%d0%b2-%d0%98%d0%bd%d0%b4%d0%b5%d0%b9%d0%ba%d0%b5
+slug: iminturkey
 tags: fun iphone 
 postid: 358
 translated: no

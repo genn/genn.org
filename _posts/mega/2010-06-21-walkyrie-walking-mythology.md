@@ -2,7 +2,7 @@
 layout: default
 category: mega
 lang: en
-title: Walkyrie: Walking Mythology
+title: Walkyrie&#58; Walking Mythology
 slug: walkyrie-walking-mythology
 mainpicture: walkyrie.jpg
 tags: design emo friends fun information reading stuff 

@@ -2,7 +2,7 @@
 layout: default
 categories: [mega, ru]
 lang: ru
-title: &lt;lj user=igor_safonov /&gt;
+title: Ok &lt;lj user&#61;igor_safonov /&gt;
 slug: igor_safonov
 tags: design emo friends 
 postid: 92

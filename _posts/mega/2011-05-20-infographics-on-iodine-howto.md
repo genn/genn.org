@@ -2,7 +2,7 @@
 layout: default
 category: mega
 lang: en
-title: Data Visualization (Infographics) Howto: Iodide! Iodate!
+title: Data Visualization (Infographics) Howto&#58; Iodide! Iodate!
 slug: infographics-on-iodine-howto
 mainpicture: mainen.png
 tags: baka-baka design emo fan fun information numbers reading unicef 

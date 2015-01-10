@@ -2,7 +2,7 @@
 layout: default
 categories: [mega, ru]
 lang: ru
-title: Создание инфографики: Йодид! Йодат!
+title: Создание инфографики&#58; Йодид! Йодат!
 slug: infographics-on-iodine-howto
 mainpicture: mainru.png
 tags: baka-baka design emo fan fun information numbers reading unicef 

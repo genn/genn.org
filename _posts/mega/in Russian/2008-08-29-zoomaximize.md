@@ -2,7 +2,7 @@
 layout: default
 categories: [mega, ru]
 lang: ru
-title: Zoom : Maximize
+title: Zoom &#58; Maximize
 slug: zoomaximize
 mainpicture: zoom-zoom-maxi-zoom.png
 tags: apple friends gui microsoft 
